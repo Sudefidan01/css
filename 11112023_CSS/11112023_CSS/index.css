@@ -1,0 +1,70 @@
+﻿/*
+    StyleSheet dosyası içerisinde kullanılan özelliklerin bazıları:
+    -------------------------------------------------------
+    - background-color:Arkaplan rengini tanımlar
+    - background-image:Arkaplan resmi tanımlar
+    - background-repeat:Arkaplan resmini tekrarlama yöntemi belirtir
+    - background-position:Arkaplan resmi pozisyonunu belirtir
+    - color:Yazı rengini belirtir
+    - text-aling:Yazı hizalamasını belirtir
+    - text-decoration:A taglarındaki altı çizili yazıyı biçimlendirir
+    - text-transform:Yazıları büyük veya küçük yazmamızı sağlar
+    - text-indent:Yazı önünde belirtilen uzunluk kadar boşluk bırakır
+    - text-family:Yazı tipini belirtir
+    - font-size:Yazı boyutunu belirtir
+    - font-style:Yazı stilini belirtir
+    - font-weight:Yazı kalınlığını belirtir
+    - list-style-type:ul taglarında listelenen li taglarının önünde bulunan işaretlerin stilini tanımlar
+    - list-style-image:ul taglarında listelenen li taglarının  madde işareti yerine resim eklememizi sağlar
+    - list-style-position:ul taglarında listelenen li taglarının  madde işaretinin liste içinde mi yoksa liste dışında mı olacağını belirtir
+    - border:Kenarlık belirtmemizi sağlar
+    - width:Genişlik verir
+    - min-width:Minimum genişlik verir
+    - max-width:Maximum genişlik verir
+    - height: yükseklik verir
+    - margin: Dış boşluk verir
+    - padding: İç boşluk verir
+    - visiblity: Sayfa içerisinde gizlenmesini sağlar
+    - display: Element görünüm türünü belirtir
+    - position : Elementin pozisyonunu belirtir
+    - float : elementi hizalamak için kullanılır
+    - opcity: Bir resme saydamlık vermek için kullanılır
+
+    a tagları için kullanılan özel ekler:
+    ----------------
+    a:link => normal link görünümünü ifade eder
+    a:active => fare ile tıklandığındaki görünümünü ifade eder
+
+    Genel olarak kullanılan özel ekler:
+    -----------------------
+    <element>:hover:Fare ile üzerine gelindiğindeki görünümü ifade eder
+    <element>:first-child:ELementin içerisinde bulunan ilk elementi ifade eder
+    <element>:nth-child(x):elementin içerisinde bulunan x değerindeki elementi ifade eder
+    <element>:last-child:Elementin içerisinde bulunan son elementi ifade eder
+*/
+body {
+    background-color:lightgray;
+    background-image:url(b.jpeg);
+    background-repeat:no-repeat;
+    background-position:top center;
+}
+#Div1{
+    background-color:deepskyblue;
+    padding:20px 50px;
+    margin:50px;
+    color:white;
+    font-style:italic;
+    font-weight:bold;
+}
+a{
+    color:deepskyblue;
+    text-decoration:none;
+    border: 2px solid deepskyblue;
+    padding:10px 20px;
+    background-color:white;
+    border-radius:10px;
+}
+    a:hover{
+        background-color:deepskyblue;
+        color:white;
+    }
